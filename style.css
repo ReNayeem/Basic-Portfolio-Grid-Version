@@ -49,8 +49,8 @@
 .welcome-title {
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
     min-height: calc(100vh - 106px);
 }
 
