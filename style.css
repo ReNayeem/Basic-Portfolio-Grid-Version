@@ -1,0 +1,170 @@
+* {
+    color: #d1d0c5;
+    padding: 0 1rem;
+}
+
+.background {
+    background-color: #323437;
+}
+
+.background-home {
+    background-image: url('./resources/cover.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.min-height {
+    min-height: calc(100vh - 54px);
+}
+
+.navbar {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 0 .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover {
+    color: #e2b714;
+}
+
+#active-nav-link {
+    color: #e2b714;
+}
+
+.home-img {
+    height: 160px;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-top: -5rem;
+}
+
+.welcome-title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 106px);
+}
+
+.welcome-p-title {
+    color: #e2b714;
+    margin: 0 0 2rem 0;
+}
+
+.welcome-h1-title,
+.welcome-h1-title-2 {
+    font-size: 56px;
+    margin: 0;
+    line-height: 65px;
+    letter-spacing: -2px;
+    color: #e8e6e3;
+    font-weight: 600;
+}
+
+/* home end  */
+
+/* about start  */
+.about-me {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 106px);
+}
+
+.about-me h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+.about-me h3 {
+    margin: 0;
+    padding-top: .3rem;
+    color: #e2b714;
+}
+
+.about-me-flex {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 1040px;
+}
+
+.my-image {
+    height: 300px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.about-me h4 {
+    text-align: justify;
+}
+
+/* about end  */
+
+/* skills start  */
+.skills-h2 {
+    margin-top: -2rem !important;
+}
+
+.skills-h3 {
+    padding-bottom: 2rem;
+}
+
+.skills-image {
+    height: 220px;
+}
+
+/* skills end  */
+
+/* work start  */
+.about-me p {
+    text-align: center;
+}
+
+/* work end  */
+
+/* contact start  */
+.contact {
+    margin-top: -1rem;
+}
+
+.contact-number span,
+.contact-email span {
+    padding: 0;
+}
+
+.contact-email {
+    margin: 0;
+}
+
+/* footer start */
+footer {
+    padding: 15px 23px;
+    font-size: 13px;
+    color: #646669 !important;
+    margin-bottom: -2rem;
+    text-align: center;
+}
+
+footer span {
+    color: #7b7c7c;
+    text-decoration: none;
+    padding: 0;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+/* footer end  */
